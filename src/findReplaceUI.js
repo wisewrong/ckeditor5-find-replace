@@ -212,7 +212,7 @@ export default class FindReplaceUI extends Plugin {
                 this._resetStatus();
                 editor.editing.view.focus();
             }
-        }, { priority: 'low' }  );
+        }, { priority: 'low' } );
 
         dropdown.on( 'cancel', () => closeUI() );
 
